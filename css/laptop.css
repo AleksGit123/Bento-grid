@@ -1,0 +1,23 @@
+@media(max-width:1077px) {
+
+    /* section1 */
+    .schedule_div1 {
+        padding: 25px;
+        row-gap: 50px;
+    }
+
+    /* section2 */
+    .social_media_section {
+        padding: 40px;
+    }
+
+    .social_media {
+        font-size: 41px;
+    }
+
+    /* section3 */
+    .section3 {
+        padding: 24px;
+        row-gap: 30px;
+    }
+}

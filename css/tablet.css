@@ -1,0 +1,88 @@
+@media(max-width:955px) {
+    .main_tag {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "section2"
+            "section4"
+            "section3"
+            "section6"
+            "section5"
+            "section1"
+        ;
+    }
+
+    .schedule_div1 {
+        height: 40%;
+    }
+
+    /* section2 */
+    .social_media {
+        font-size: 41px;
+        line-height: 41px;
+    }
+
+    .ai_content {
+        width: 80%;
+    }
+
+    /* section3 */
+    .section3 {
+        overflow: visible;
+    }
+
+    .schedule_posts_img {
+        position: static;
+        width: 100%;
+    }
+
+
+
+    /* section4 */
+    .section4 {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .section4_heading {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .s4_div2 {
+        align-items: flex-start;
+        overflow: visible;
+        row-gap: 15px;
+        padding: 24px 64px 0 24px;
+    }
+
+    .s4_div {
+        width: 100%;
+    }
+
+    .consist_schedule {
+        width: 60%;
+        height: 100%;
+    }
+
+    .platforms {
+        width: min(100%, 600px);
+        height: 70%;
+    }
+
+    /* section5 */
+    .section5 {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+
+    /* section6 */
+
+    .section6 {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+
+}
